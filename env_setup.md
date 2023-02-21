@@ -27,8 +27,8 @@ conda install -c conda-forge gxx=10.4.0 -y
 pip install -q lmdb==1.4.0
 pip install -q timm==0.6.12
 pip install -q scipy==1.9.3
+pip install -q protobuf==3.20.0
 pip install -q tfrecord==1.14.1
-conda install -c anaconda scikit-learn=1.2.0 -y
 pip install -q einops==0.6.0
 pip install -q tqdm==4.64.1
 pip install -q wandb==0.13.10
@@ -38,6 +38,7 @@ pip install -q dill==0.3.6
 pip install -q imageio-ffmpeg==0.4.8
 pip install -q ftfy==6.1.1
 pip install -q ninja==1.10.2.1
+conda install -c anaconda scikit-learn=1.2.0 -y
 ```
 
 Remember to put the directory with png images, `ffhq-08`, inside another directory `ffhq`.
